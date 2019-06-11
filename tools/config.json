@@ -1,0 +1,47 @@
+{
+    "JYBaseDB": {
+        "Engine": "mysql",
+        "Host": "www.snlan.top",
+        "Port": 3306,
+        "Name": "jy_base",
+        "User": "root",
+        "Pass": "123456",
+        "Params": "parseTime=true&charset=utf8mb4&loc=Hongkong"
+    },
+    "JYLogDB": {
+        "Engine": "mysql",
+        "Host": "www.snlan.top",
+        "Port": 3306,
+        "Name": "jy_log",
+        "User": "root",
+        "Pass": "123456",
+        "Params": "parseTime=true&charset=utf8mb4&loc=Hongkong"
+    },
+    "JYMemberDB": {
+        "Engine": "mysql",
+        "Host": "www.snlan.top",
+        "Port": 3306,
+        "Name": "jy_member",
+        "User": "root",
+        "Pass": "123456",
+        "Params": "parseTime=true&charset=utf8mb4&loc=Hongkong"
+    },
+    "JYOtherDB": {
+        "Engine": "mysql",
+        "Host": "www.snlan.top",
+        "Port": 3306,
+        "Name": "jy_other",
+        "User": "root",
+        "Pass": "123456",
+        "Params": "parseTime=true&charset=utf8mb4&loc=Hongkong"
+    },
+    "JYTradeDB": {
+        "Engine": "mysql",
+        "Host": "www.snlan.top",
+        "Port": 3306,
+        "Name": "jy_trade",
+        "User": "root",
+        "Pass": "123456",
+        "Params": "parseTime=true&charset=utf8mb4&loc=Hongkong"
+    }
+}

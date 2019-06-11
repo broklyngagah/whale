@@ -1,0 +1,21 @@
+
+# This is a TOML config.
+
+server_id = 9
+auth_url = "http://192.168.199.156/auth"
+#auth_url = "http://logintest.fjfb.changit.cn:81/auth"
+
+username_prefix = "zd32t%04d"
+db_dsn = "chengxu:changit2017@tcp(192.168.199.156:3306)/contra_base_test?parseTime=true&loc=Hongkong"
+
+redis_addr = "192.168.199.156:6380"
+redis_pwd = ""
+
+# 并发设置
+concurrency = 20000 # 开启几个goroutine
+
+# 机器人运行时间
+robot_interval = 1800 # 单位s
+
+# 是否进行匹配
+is_match = false

@@ -1,0 +1,17 @@
+language: go
+
+go:
+    - 1.10.x
+
+go_import_path: carp.cn/whale
+
+sudo: required
+
+install:
+    - echo "install"
+    - echo $HOME
+
+script:
+    - echo "script"
+    - pwd
+    - make linux_cross
